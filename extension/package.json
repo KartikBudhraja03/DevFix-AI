@@ -13,11 +13,11 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "devfix-ai.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    {
+        "command": "devfix-ai.analyzeCurrentFile",
+        "title": "DevFix AI: Analyze Current File"
+    }
+]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

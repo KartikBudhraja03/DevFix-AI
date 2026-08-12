@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(diagnostics);
 
     const disposable = vscode.commands.registerCommand(
-        'devfix-ai.helloWorld',
+        'devfix-ai.analyzeCurrentFile',
         () => {
 
             const editor = vscode.window.activeTextEditor;
