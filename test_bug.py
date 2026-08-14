@@ -1,2 +1,5 @@
-while True:
-    print("Hello")
+def greet(name):
+    message = "Hello " + name
+    return message
+
+print(greet(10))
